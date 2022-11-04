@@ -1,0 +1,21 @@
+{
+  "name": "hello-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "node bundle.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/parser": "^7.20.1",
+    "@babel/traverse": "^7.20.1",
+    "@babel/preset-env": "^7.19.4"
+  }
+}
